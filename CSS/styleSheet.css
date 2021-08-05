@@ -1,0 +1,424 @@
+/*--------Home Page--------*/
+#container {
+    width: 90%;
+    background-color: black;
+    margin: 0 auto;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+#Nav>a:hover {
+    background-color: wheat;
+}
+
+.main {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main>li {
+    float: left;
+    padding: 2px 30px
+}
+
+.main>li:hover {
+    background-color: wheat
+}
+
+.sub {
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub>li:hover {
+    background-color: pink
+}
+
+.SignIn {
+    text-align: right;
+    color: dimgray;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 3px;
+    background-color: wheat;
+    writing-mode: horizontal-tb;
+    font-style: oblique;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+
+.Gallery::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.filter-me {
+    filter: grayscale(100%);
+}
+
+.filter {
+    filter: saturate(80%);
+}
+
+#aboutOwner {
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+    margin: 20px;
+    padding: 5px;
+}
+
+#aboutOwner>section>h1 {
+    font-family: fantasy;
+    font-size: 3em;
+}
+
+aside>p>a {
+    font-weight: bold;
+}
+
+a:hover {
+    color: magenta;
+}
+
+.table {
+    background-color: white;
+}
+
+#tableHeading {
+    font-family: fantasy;
+    font-size: 3.5em;
+}
+
+#viewCat>td {
+    text-align: right;
+}
+
+#Reviews {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+#reviewer1>h4 {
+    font-family: Haettenschweiler;
+    font-size: 4em;
+}
+
+#reviewer1>p {
+    font-style: italic;
+    color: green;
+    font-size: 1.2em;
+}
+
+#reviewer1>#ReviewerH {
+    border-top: 1px solid green;
+    width: 15%;
+    margin: 0 auto;
+}
+
+#moreReviews1 {
+    margin: 50px;
+    display: none;
+}
+
+#moreReviews1>p {
+    font-style: italic;
+    color: green;
+    font-size: 1.2em;
+}
+
+#moreReviews1>#ReviewerA {
+    border-top: 1px solid green;
+    width: 15%;
+    margin: 0 auto;
+}
+
+#moreReviews2 {
+    margin: 50px;
+    display: none;
+}
+
+#moreReviews2>p {
+    font-style: italic;
+    color: green;
+    font-size: 1.2em;
+}
+
+#moreReviews2>#ReviewerT {
+    border-top: 1px solid green;
+    width: 15%;
+    margin: 0 auto;
+}
+
+#viewMoreReviews {
+    margin-top: 20px;
+    background-color: limegreen;
+    color: white;
+    border: 2px solid limegreen;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#viewMoreReviews:hover {
+    opacity: 1;
+}
+
+footer {
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*--------About us--------*/
+#aboutUs {
+    text-align: justify;
+    padding: 10px;
+    background-color: wheat;
+    border-top: 1px solid black;
+}
+
+/*--------Product Information--------*/
+#Catalogue {
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+.p-3 {
+    font-size: 1.4em;
+}
+
+#price {
+    color: green;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* My Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (110% zoom) when images are hovered over.*/
+}
+
+button {
+    margin-bottom: 100px;
+}
+
+/*--------Products--------*/
+#Products {
+    text-align: center;
+    background-color: beige;
+    border-top: 1px solid black;
+}
+
+#prodDetails>li {
+    list-style-type: none;
+    text-align: left;
+}
+
+/*--------Contact Details--------*/
+#contactDetails {
+    text-align: left;
+    padding: 15px;
+    background-color: wheat;
+    border-top: 1px solid black;
+}
+
+/*--------Cart--------*/
+#cartContainer {
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+#cartNav>a:hover {
+    background-color: wheat;
+}
+
+#sHeader {
+    text-align: center;
+    margin: 20px;
+}
+
+.products-container {
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    list-style-type: none;
+}
+
+#show-cart {
+    list-style-type: none;
+    text-align: center;
+}
+
+.product-title {
+    float: left;
+    width: 20%;
+}
+
+.quantity {
+    float: left;
+    width: 10%;
+}
+
+.price {
+    float: left;
+    width: 15%;
+}
+
+.total {
+    float: left;
+    width: 10%;
+}
+
+.addRemove {
+    display: inline;
+    width: 10%;
+}
+
+.quickBtns {
+    display: inline;
+    width: 20%;
+    margin-top: -50px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 1em;
+    align-items: center;
+}
+
+.plus-item {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 8px;
+    width: 30px;
+}
+
+.subtract-item {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 8px;
+    width: 30px;
+}
+
+.delete-item {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 8px;
+    width: 30px;
+}
+
+#clear-cart {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 12px;
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+#clear-cart:hover {
+    opacity: 1
+}
+
+#bag {
+    margin-right: 10px;
+}
+
+#contents1 {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin: 30px;
+}
+
+#contents2 {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin: 30px;
+}
+
+#contents3 {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin: 30px;
+}
+
+#contents4 {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin: 30px;
+}
+
+#contents5 {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin: 30px;
+}
+
+#contents6 {
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin: 30px;
+}
+
+#gt {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 15px;
+    margin: 30px;
+}
+
+#disButton {
+    margin-top: 20px;
+    background-color: lightseagreen;
+    color: white;
+    border: 2px solid lightseagreen;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#disButton:hover {
+    opacity: 1;
+}
+
+#disOut {
+    font-size: 2.5em;
+}
+
+.btn-success {
+    font-size: 30px;
+    margin-top: 30px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract Print Dress - Oxford Street Apparel</title>
+
+    <!--Ion icons-->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--External CSS-->
+    <link href="../../CSS/styleSheet.css" rel="stylesheet" type="text/css">
+
+    <!--Link to jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="../HomePage.html"><img style="height: 15em;" src="../../Images/OSA_Logo.jpeg"
+                    alt="Oxford Street Apparel Logo"></a>
+        </header>
+
+        <!--Navigation Bar-->
+        <nav id="Nav" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="../../HTML/HomePage.html"> Home </a>
+            <a class="navbar-brand" href="../../HTML/AboutUs.html"> About us </a>
+            <a class="navbar-brand" href="../../HTML/Catalogue.html"> Product Information </a>
+            <a class="navbar-brand" href="../../HTML/ContactDetails.html"> Contact Details </a>
+            <a class="navbar-brand" href="mailto:ayesha.lambat@gmail.com"> Email Us </a>
+            <a class="navbar-brand" href="https://www.instagram.com/oxford_street_apparel/?hl=en"> Instagram Page </a>
+            <a class="navbar-brand" href="../../HTML/cart.html">
+                <ion-icon name="basket"></ion-icon> Cart <span id="count-cart">0</span>
+            </a>
+        </nav>
+
+        <!--Products-->
+        <section id="Products">
+            <h3>Product Information</h3>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td><img src="../../Images/AbstractPrintDress.jpeg" alt="Abstract Print Dress"
+                                class="img-thumbnail p-3 m-5">
+                        </td>
+                        <td>
+                            <ul id="prodDetails">
+                                <li>
+                                    <h2>ABSTRACT PRINT DRESS</h2>
+                                </li>
+                                <li>
+                                    <h3 class="text-success">R250.00</h3>
+                                </li>
+                                <!--Coloured the text using bootstrap-->
+                                <li>
+                                    <h5>DESCRIPTION</h5>
+                                </li>
+                                <li>
+                                    <p>Funky, multi-coloured dress with abstract print and long sleeves.
+                                        <br>
+                                        Size: Small-XXL </p>
+                                </li>
+                                <li>
+                                    <form>
+                                        <!--Radio Button Form-->
+                                        <p>Please select your size:</p>
+                                        <input type="radio" id="small" name="size" value="small">
+                                        <label>Small</label><br>
+                                        <input type="radio" id="medium" name="size" value="medium">
+                                        <label>Medium</label><br>
+                                        <input type="radio" id="large" name="size" value="large">
+                                        <label>Large</label><br>
+                                        <input type="radio" id="extralarge" name="size" value="extra large">
+                                        <label>Extra Large</label><br>
+                                        <input type="radio" id="DoubleExtraLarge" name="size"
+                                            value="double extra large">
+                                        <label>Double Extra Large</label><br>
+                                    </form>
+                                    <button type="button" class="btn btn-primary" data-name="Abstract Print Dress"
+                                        data-price="250.00">Add to Cart</button>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--Products closed-->
+
+        <footer>
+            <p>Copyright 2021© Oxford Street Apparel</p>
+        </footer>
+    </div>
+    <!--container closed-->
+
+    <!--Ion Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <!--Javascript File-->
+    <script src="../../JS/shoppingCart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+
+    <!--Ion icons-->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--External CSS added below. This stylesheet will override the previous stylesheets because it has been
+    listed below them.-->
+    <link href="../CSS/styleSheet.css" rel="stylesheet" type="text/css">
+
+    <!--Link to jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a href="./HomePage.html"><img style="height: 15em;" src="../Images/OSA_Logo.jpeg"
+                    alt="Oxford Street Apparel Logo"></a>
+            <!--Inline CSS used to size the image.-->
+            <!--When users click on the Oxford Street Apparel logo, it will take them back to the homepage.-->
+        </header>
+
+        <!--Navigation Bar-->
+        <nav id="Nav" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="./HomePage.html"> Home </a>
+            <!--navbar-brand (Bootstrap) used for company.-->
+            <a class="navbar-brand" href="./AboutUs.html"> About us </a>
+            <!--Internal link created to the About Us page.-->
+            <a class="navbar-brand" href="./Catalogue.html"> Product Information </a>
+            <a class="navbar-brand" href="./ContactDetails.html"> Contact Details </a>
+            <a class="navbar-brand" href="mailto:ayesha.lambat@gmail.com"> Email Us </a>
+            <!--External link created to an email address. I used the prefix "mailto:" followed by the email address.-->
+            <a class="navbar-brand" href="https://www.instagram.com/oxford_street_apparel/?hl=en"> Instagram Page </a>
+            <!--An External link to the companies Instagram page.-->
+            <a class="navbar-brand" href="./cart.html">
+                <ion-icon name="basket"></ion-icon> Cart <span id="count-cart">0</span>
+            </a>
+        </nav>
+
+        <!--About Us-->
+        <section id="aboutUs">
+            <h1>About Us</h1>
+            <p>So anyone who knows me personally, will know that I’ve always been obsessed with the city of London, The
+                Royal Family (my mom absolutely adored Diana) and almost all things British.
+                My favorite shopping memories date back to me as a 10 year old kid exploring the aisles of Hamleys on
+                Regent Street and Harrods in Knightsbridge.
+                When selecting our range of ladies clothing, we’re definitely inspired by the streets of Carnaby and
+                Oxford, and the lines of Selfridges and Debenhams. Bringing you fashion-forward pieces,
+                inspired by the heart of London shopping, Oxford Street and the birthplace of the fashion and cultural
+                revolution, Carnaby.
+                Oxford Street Apparel stocks casual European inspired pieces, dressy occasional wear and caters for the
+                modern Hijaabi as well.</p><br>
+            <p>- Ayesha Lambat Ganchi (Owner & Founder)</p>
+        </section>
+        <!--About Us closed-->
+
+        <footer>
+            <p>Copyright 2021© Oxford Street Apparel</p>
+        </footer>
+    </div>
+    <!--container closed-->
+
+    <!--Ion Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <!--Javascript File-->
+    <script src="../JS/shoppingCart.js"></script>
+</body>
+
+</html>

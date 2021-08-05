@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <!--Ion icons-->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--External CSS-->
+    <link href="../CSS/styleSheet.css" rel="stylesheet" type="text/css">
+
+    <!--Link to jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <div id="cartContainer">
+        <header>
+            <a href="./HomePage.html"><img style="height: 15em;" src="../Images/OSA_Logo.jpeg"
+                    alt="Oxford Street Apparel Logo"></a>
+        </header>
+
+        <!--Navigation Bar-->
+        <nav id="cartNav" class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="./HomePage.html"> Home </a>
+            <a class="navbar-brand" href="./AboutUs.html"> About us </a>
+            <a class="navbar-brand" href="./Catalogue.html"> Product Information </a>
+            <a class="navbar-brand" href="./ContactDetails.html"> Contact Details </a>
+            <a class="navbar-brand" href="mailto:ayesha.lambat@gmail.com"> Email Us </a>
+            <a class="navbar-brand" href="https://www.instagram.com/oxford_street_apparel/?hl=en"> Instagram Page </a>
+            <a class="navbar-brand" href="./cart.html">
+                <ion-icon name="basket"></ion-icon> Cart <span id="count-cart">0</span>
+            </a>
+        </nav>
+
+        <div id="sHeader">
+            <h1>SHOPPING CART</h1>
+        </div>
+
+        <!--products-container-->
+        <div>
+            <ul class="products-container">
+                <li class="product-title">
+                    <h5>PRODUCT DETAILS</h5>
+                </li>
+                <li class="quantity">
+                    <h5>QUANTITY</h5>
+                </li>
+                <li class="price">
+                    <h5>PRICE PER ITEM</h5>
+                </li>
+                <li class="total">
+                    <h5>TOTAL</h5>
+                </li>
+                <li class="addRemove">
+                    <h5>ADD/REMOVE ITEM</h5>
+                </li>
+            </ul>
+        </div>
+        <!--products-container closed-->
+
+        <!--show-cart-->
+        <div>
+            <ul id="show-cart">
+                <!-- Set in JS file -->
+            </ul>
+            <div id="contents1"><button id="clear-cart">Clear Cart</button></div>
+            <div id="contents2">
+                <ion-icon id="bag" name="basket"></ion-icon>Items in Cart: <span id="count-cart2">0</span>
+            </div>
+            <div id="contents3">Subtotal Cart: R<span id="subtotal-cart"></span></div>
+            <div id="contents4"><label>Choose a shipping method:</label>
+                <select id="selectValue" onchange="shippingTotal();">
+                    <option>--Choose option--</option>
+                    <option>Standard-delivery - between 7-10 days: (R50)</option>
+                    <option>Express-delivery - between 24-48 Hours: (R100)</option>
+                    <option>Collection in store: free</option>
+                </select>
+            </div>
+            <div id="contents5">Total price - with shipping (excl. VAT): R<span id="shippingOut"></span></div>
+            <div id="gt">Grand Total (incl. 15% VAT): R<span id="total-cart"></span></div>
+            <div id="contents6">
+                <form>
+                    <input type="text" id="disCode" placeholder="Enter Discount Code">
+                </form>
+                <div><button id="disButton" onclick="applyDiscount();">Apply Promo code</button></div>
+                <div><span id="disOut"></span></div>
+                <div class="text-center"><button class="btn btn-success" onclick="checkoutAlert();">Confirm
+                        Order</button></div>
+            </div>
+        </div>
+        <!--show-cart closed-->
+
+        <footer>
+            <p>Copyright 2021© Oxford Street Apparel</p>
+        </footer>
+    </div>
+    <!--container closed-->
+
+    <!--Ion Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <!--Javascript File-->
+    <script src="../JS/shoppingCart.js"></script>
+</body>
+
+</html>
