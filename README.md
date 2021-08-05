@@ -20,7 +20,7 @@ HyperionDev Online Store Capstone Project
 - Please follow the steps below in order to clone this remote repository:
   
 1. On GitHub, navigate to the main page of the repository. Click on the green button **"Code"**
-![URL Clone](./Images/url_clone.jpg)
+![URL Clone](./ReadMe_Images/url_clone.jpg)
 <!-- Square brackets contain Alt text if image does not load -->
 
 2. Copy the URL displayed.
