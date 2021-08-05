@@ -24,7 +24,7 @@ HyperionDev Online Store Capstone Project
 <!-- Square brackets contain Alt text if image does not load -->
 
 2. Copy the URL displayed.
-3. Open up the command prompt by typing cmd in the search bar - Windows.
+3. Open up the command prompt by typing _cmd_ in the search bar - on Windows.
 4. Select the directory in which you would like to store the cloned respository.
 5. Thereafter, enter git clone, and then paste the URL that you copied earlier. e.g. git clone https://github.com/RiazK09/OnlineStoreOSA.git
 6. Hit enter to create a local clone on your device.
@@ -40,16 +40,20 @@ The cloned repository will contain all the project files. This new directory wil
 ## Screenshots
 <!-- My screenshots will be added here -->
 - Catalogue Page displaying the products for sale.
+
 ![Catalogue_Page](./ReadMe_Images/Catalogue_Page.jpg)
 
 - Each product page has an option to "add-to-cart".
+
 ![Add_to_cart](./ReadMe_Images/added_product_to_cart.jpg)
 
 - Users can see what is in their cart, along with each item's quantity and price.
+
 ![Shopping_cart](./ReadMe_Images/shopping_cart.jpg)
 
 - Users can confirm their orders once they have selected their preferred delivery option.
 - They also have an option to enter a discount code which will reduce the total amount due.
+
 ![Checkout](./ReadMe_Images/checkout.jpg)
 
 ## Credits
