@@ -1,5 +1,6 @@
 # OnlineStoreOSA
 HyperionDev Online Store Capstone Project
+<!-- This is an example of a Blockquote -->
 > An online clothing store created with HTML, CSS and JavaScript. 
 
 ## Table of Contents
@@ -19,7 +20,7 @@ HyperionDev Online Store Capstone Project
 
 - Please follow the steps below in order to clone this remote repository:
   
-1. On GitHub, navigate to the main page of the repository. Click on the green button **"Code"**
+1. On GitHub, navigate to the main page of the repository. Click on the green button - **"Code"**
 ![URL Clone](./ReadMe_Images/url_clone.jpg)
 <!-- Square brackets contain Alt text if image does not load -->
 
@@ -39,25 +40,25 @@ The cloned repository will contain all the project files. This new directory wil
 
 ## Screenshots
 <!-- My screenshots will be added here -->
-- Catalogue Page displaying the products for sale.
+### Catalogue Page displaying the products for sale.
 
 ![Catalogue_Page](./ReadMe_Images/Catalogue_Page.jpg)
 
-- Each product page has an option to "add-to-cart".
+### Each product page has an option to "add-to-cart".
 
 ![Add_to_cart](./ReadMe_Images/added_product_to_cart.jpg)
 
-- Users can see what is in their cart, along with each item's quantity and price.
+### Users can see what is in their cart, along with each item's quantity and price.
 
 ![Shopping_cart](./ReadMe_Images/shopping_cart.jpg)
 
-- Users can confirm their orders once they have selected their preferred delivery option.
-- They also have an option to enter a discount code which will reduce the total amount due.
+### Users can confirm their orders once they have selected their preferred delivery option.
+### They also have an option to enter a discount code which will reduce the total amount due.
 
 ![Checkout](./ReadMe_Images/checkout.jpg)
 
 ## Credits
-- The shopping cart for this online store was based on [this tutorial] (https://www.youtube.com/playlist?list=PLoN_ejT35AEhzNoPStBzAkpqAu3YQwPj7) - by Mitchell Hudson.
+- The shopping cart for this online store was based on [this tutorial](https://www.youtube.com/playlist?list=PLoN_ejT35AEhzNoPStBzAkpqAu3YQwPj7) - by Mitchell Hudson.
 - Many thanks to my mentor, Mr Seraaj De Villiers for all the motivation, belief and unwavering support.
 
 ## Contact
