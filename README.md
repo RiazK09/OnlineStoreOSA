@@ -11,7 +11,7 @@ HyperionDev Online Store Capstone Project
 * [Contact](#contact)
 
 ## General Information
-- This project was undertaken in order to demonstrate the skills that I acquired from the Full Stack Web Development bootcamp with Hyperion Development. 
+- This project was undertaken in order to demonstrate the skills that I acquired from the Full Stack Web Development bootcamp offered by **Hyperion Development.** 
 - This is a real-world application of an online clothing store that was created with HTML, CSS and JavaScript.
 
 ## Installation
