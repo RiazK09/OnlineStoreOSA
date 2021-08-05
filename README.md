@@ -34,7 +34,7 @@ HyperionDev Online Store Capstone Project
 ## Usage
 The cloned repository will contain all the project files. This new directory will have the following folders:
 - CSS (This folder contains a single stylesheet used for styling all the webpages).
-- HTML (This folder contains all the HTML web pages for naviagtion purposes - This directory has a sub-folder called *products* which contains seperate web pages for each product listed on the online store).
+- HTML (This folder contains all the HTML web pages for navigation purposes - This directory has a sub-folder called *products* which contains seperate web pages for each product listed on the online store).
 - JS (A JavaScript file which is linked to all HTML files in order to add **functionality** to the website).
 - Images (This folder contains all the images utilised on the website).
 
