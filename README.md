@@ -12,14 +12,14 @@ HyperionDev Online Store Capstone Project
 
 ## General Information
 - This project was undertaken in order to demonstrate the skills that I acquired from the Full Stack Web Development bootcamp with Hyperion Development. 
-- It is an online clothing store created with HTML, CSS and JavaScript.
+- This is a real-world application of an online clothing store that was created with HTML, CSS and JavaScript.
 
 ## Installation
 - In order to install this project locally, you would need to use the git clone [repository_url] command.
 
 - Please follow the steps below in order to clone this remote repository:
   
-1. On GitHub, navigate to the main page of the repository. Click on the green button "Code"
+1. On GitHub, navigate to the main page of the repository. Click on the green button **"Code"**
 ![URL Clone](./Images/url_clone.jpg)
 <!-- Square brackets contain Alt text if image does not load -->
 
@@ -32,8 +32,14 @@ HyperionDev Online Store Capstone Project
 7. If you go to this new directory, you will find all the project files, ready to be utilised.
 
 ## Usage
+The cloned repository will contain all the project files. This new directory will have the following folders:
+- CSS (This folder contains a single stylesheet used for styling all the webpages).
+- HTML (This folder contains all the HTML web pages for naviagtion purposes - This directory has a sub-folder called *products* which contains seperate web pages for each product listed on the online store).
+- JS (A JavaScript file which is linked to all HTML files in order to add **functionality** to the website).
+- Images (This folder contains all the images utilised on this website).
 
 ## Screenshots
+
 
 ## Credits
 - The shopping cart for this online store was based on [this tutorial] (https://www.youtube.com/playlist?list=PLoN_ejT35AEhzNoPStBzAkpqAu3YQwPj7) - by Mitchell Hudson.
