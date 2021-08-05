@@ -39,7 +39,19 @@ The cloned repository will contain all the project files. This new directory wil
 - Images (This folder contains all the images utilised on this website).
 
 ## Screenshots
+<!-- My screenshots will be added here -->
+- Catalogue Page displaying products for sale
+![Catalogue_Page](./ReadMe_Images/Catalogue_Page.jpg)
 
+- Each product page has an option to "add-to-cart"
+![Add_to_cart](./ReadMe_Images/added_product_to_cart.jpg)
+
+- Users can see what is in their cart, along with each item's quantity and price.
+![Shopping_cart](./ReadMe_Images/shopping_cart.jpg)
+
+- Users can confirm their orders once they have selected their preferred delivery option.
+- They also have an option to enter a discount code which will reduce the total amount due.
+![Checkout](./ReadMe_Images/checkout.jpg
 
 ## Credits
 - The shopping cart for this online store was based on [this tutorial] (https://www.youtube.com/playlist?list=PLoN_ejT35AEhzNoPStBzAkpqAu3YQwPj7) - by Mitchell Hudson.
