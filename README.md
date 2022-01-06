@@ -61,5 +61,6 @@ The cloned repository will contain all the project files. This new directory wil
 - Many thanks to my mentor, Mr Seraaj De Villiers for all the motivation, belief and unwavering support.
 
 ## Contact
-Created by [@RiazK09](https://www.linkedin.com/in/riaz-karolia/) - Feel free to contact me!
-<!-- If you click on my username, it will take you to my LinkedIn profile -->
+👤 **Riaz Karolia**
+
+Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/riaz-karolia/)
